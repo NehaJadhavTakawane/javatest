@@ -16,6 +16,8 @@ public class LocatorId {
         driver.findElement(By.linkText("Forgotten password?")).click();
         driver.findElement(By.name("reset_action")).click();
         driver.findElement(By.cssSelector("inputtext _9o1w _9o1")).click();
+        driver.close();
+       
         
 	}
 
